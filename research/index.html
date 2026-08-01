@@ -4,28 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Interpretabilidad y seguridad de IA — Matías Podeley</title>
-<meta name="description" content="Un paper original de interpretabilidad, el primer curso consolidado del tema en español, y un cuaderno de laboratorio abierto. Investigación independiente desde Buenos Aires.">
-<link rel="canonical" href="https://podeley.github.io/research/">
-<link rel="alternate" hreflang="es" href="https://podeley.github.io/research/">
-<link rel="alternate" hreflang="en" href="https://podeley.github.io/en/research/">
-<link rel="alternate" hreflang="x-default" href="https://podeley.github.io/research/">
+<meta name="description" content="Dieciocho años en energía y hoy interpretabilidad mecanicista: un paper original con su PDF, el primer curso consolidado del tema en español y un cuaderno de laboratorio abierto.">
+<link rel="canonical" href="https://podeley.ar/research/">
+<link rel="alternate" hreflang="es" href="https://podeley.ar/research/">
+<link rel="alternate" hreflang="en" href="https://podeley.ar/en/research/">
+<link rel="alternate" hreflang="x-default" href="https://podeley.ar/research/">
 <link rel="icon" href="/assets/favicon.svg">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="podeley.ar">
 <meta property="og:locale" content="es_AR">
 <meta property="og:title" content="Interpretabilidad y seguridad de IA — Matías Podeley">
-<meta property="og:description" content="Un paper original de interpretabilidad, el primer curso consolidado del tema en español, y un cuaderno de laboratorio abierto. Investigación independiente desde Buenos Aires.">
-<meta property="og:image" content="https://podeley.github.io/assets/og.png">
-<meta property="og:url" content="https://podeley.github.io/research/">
+<meta property="og:description" content="Dieciocho años en energía y hoy interpretabilidad mecanicista: un paper original con su PDF, el primer curso consolidado del tema en español y un cuaderno de laboratorio abierto.">
+<meta property="og:image" content="https://podeley.ar/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Investigación independiente en interpretabilidad y seguridad de IA">
+<meta property="og:url" content="https://podeley.ar/research/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Interpretabilidad y seguridad de IA — Matías Podeley">
-<meta name="twitter:description" content="Un paper original de interpretabilidad, el primer curso consolidado del tema en español, y un cuaderno de laboratorio abierto. Investigación independiente desde Buenos Aires.">
-<meta name="twitter:image" content="https://podeley.github.io/assets/og.png">
+<meta name="twitter:description" content="Dieciocho años en energía y hoy interpretabilidad mecanicista: un paper original con su PDF, el primer curso consolidado del tema en español y un cuaderno de laboratorio abierto.">
+<meta name="twitter:image" content="https://podeley.ar/assets/og.png">
+<meta name="twitter:image:alt" content="Investigación independiente en interpretabilidad y seguridad de IA">
 <link rel="preload" href="/fonts/space-grotesk-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/ibm-plex-sans-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles/tokens.css">
 <link rel="stylesheet" href="/styles/chrome.css">
 <link rel="stylesheet" href="/styles/site.css">
+
 </head>
 <body>
 
@@ -62,6 +67,42 @@
 
 <div class="rule" role="presentation"></div>
 
+<section class="pd-section wrap" id="hacia-donde">
+  <div class="section-head">
+    <p class="eyebrow">Hacia dónde va</p>
+    <h2>La seguridad de IA va a llegar a la energía. Todavía no llegó</h2>
+    <p class="intro">El uso de modelos frontera por fuera de los controles ya está medido dentro de organizaciones de infraestructura crítica. Cuando los agentes pasen de asesorar a actuar sobre un ducto o una red, alguien va a tener que demostrar cuándo eso es seguro. Vengo de dieciocho años adentro de esa industria y me parece el lugar donde esto termina.</p>
+  </div>
+  <p class="bio-text">Lo que no puedo afirmar: nada de lo que investigo hoy se aplica a una decisión de operación. Mis experimentos separan "Italia" de "capital-de" en el estado interno de un modelo chico, en inglés, sobre relaciones factuales de juguete. Entre eso y auditar a un agente con autoridad sobre un ducto hay un salto que prefiero enunciar antes que disimular.</p>
+</section>
+
+<div class="rule" role="presentation"></div>
+
+<section class="pd-section wrap" id="agenda">
+  <div class="section-head">
+    <p class="eyebrow">Agenda</p>
+    <h2>Qué sigue, en orden, y dónde se traba</h2>
+    <p class="intro">Cada escalón depende del anterior y ninguno está subido todavía. Los dos primeros salen de líneas que el paper deja abiertas; el tercero es de otro tamaño.</p>
+  </div>
+  <div class="principles">
+    <div class="principle">
+      <h3>Diagnóstico causal del error</h3>
+      <p>Cuando un modelo se equivoca, distinguir si confundió la cosa, eligió mal la operación, o falló al ligar una con otra. El paper muestra que esas piezas se manipulan por separado; falta que el diagnóstico funcione sin conocer de antemano la respuesta correcta.</p>
+    </div>
+    <div class="principle">
+      <h3>Leer la intención, no el acto</h3>
+      <p>Detectar qué operación está por ejecutar el modelo, en vez de auditar la que ya ejecutó. Va con su contrapunto, que no se publica aparte: una dirección que se puede monitorear es una dirección que alguien más puede empujar.</p>
+    </div>
+    <div class="principle">
+      <h3>Salir del dominio de juguete</h3>
+      <p>Un país y su capital tienen respuesta inequívoca; una tarea de ingeniería no. Ese salto no es un corolario de lo anterior sino un proyecto entero, y es el punto donde hace falta tiempo financiado o un grupo que ya esté trabajando adentro.</p>
+    </div>
+  </div>
+  <p class="aside-link">Los seis pilares de la seguridad de IA, dónde cae la interpretabilidad entre ellos, y el argumento largo detrás de estos escalones: <a href="https://mpodeley.github.io/interpretabilidad-mecanicista/seguridad/" target="_blank" rel="noopener">el mapa completo</a>.</p>
+</section>
+
+<div class="rule" role="presentation"></div>
+
 <section class="pd-section wrap" id="casos">
   <div class="section-head">
     <p class="eyebrow">Trabajo</p>
@@ -74,7 +115,7 @@
       <figure class="shot"><img src="/assets/shots/assembled-thought.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Captura: demo interactiva del paper"></figure>
       <h3><a href="https://mpodeley.github.io/assembled-thought/" target="_blank" rel="noopener">Cómo un modelo arma una respuesta</a></h3>
       <p class="pitch">El pensamiento de un modelo sobre un hecho se separa en piezas — la cosa y la pregunta que se le hace — y esas piezas alcanzan: se promedian, se recombinan, se escriben de vuelta adentro, y el modelo dice la respuesta. Tres modelos, dos dominios donde funciona y dos donde no. Con demo interactiva.</p>
-      <p class="meta"><span class="proj">assembled-thought</span><span class="tag t-status">Paper</span><a href="https://github.com/mpodeley/assembled-thought" target="_blank" rel="noopener">Código →</a></p>
+      <p class="meta"><span class="proj">assembled-thought</span><span class="tag t-status">Paper</span><a href="https://mpodeley.github.io/assembled-thought/assets/paper.pdf" target="_blank" rel="noopener">PDF →</a><a href="https://github.com/mpodeley/assembled-thought" target="_blank" rel="noopener">Código →</a></p>
     </article>
 
     <article class="card">
@@ -98,18 +139,6 @@
 
 <div class="rule" role="presentation"></div>
 
-<section class="pd-section wrap" id="hacia-donde">
-  <div class="section-head">
-    <p class="eyebrow">Hacia dónde va</p>
-    <h2>La seguridad de IA va a llegar a la energía. Todavía no llegó</h2>
-    <p class="intro">El uso de modelos frontera por fuera de los controles ya está medido dentro de organizaciones de infraestructura crítica. Cuando los agentes pasen de asesorar a actuar sobre un ducto o una red, alguien va a tener que demostrar cuándo eso es seguro. Vengo de dieciocho años adentro de esa industria y me parece el lugar donde esto termina.</p>
-  </div>
-  <p class="bio-text">Lo que no puedo afirmar: nada de lo que investigo hoy se aplica a una decisión de operación. Mis experimentos separan "Italia" de "capital-de" en el estado interno de un modelo chico, en inglés, sobre relaciones factuales de juguete. Entre eso y auditar a un agente con autoridad sobre un ducto hay un salto que prefiero enunciar antes que disimular.</p>
-  <p class="aside-link">Los seis pilares de la seguridad de IA, dónde cae la interpretabilidad entre ellos, y los cuatro escalones que faltan para cerrar ese salto: <a href="https://mpodeley.github.io/interpretabilidad-mecanicista/seguridad/" target="_blank" rel="noopener">el mapa completo</a>.</p>
-</section>
-
-<div class="rule" role="presentation"></div>
-
 <section class="pd-section wrap" id="quien">
   <div class="section-head">
     <p class="eyebrow">Quién está detrás</p>
@@ -129,7 +158,6 @@
     <a class="btn btn--primary" href="mailto:mpodeley@gmail.com?subject=Research%20%E2%80%94%20podeley.ar%2Fresearch&amp;body=Hola%20Matias%2C%0A%0A">Escribime</a>
     <a class="btn btn--outline" href="https://www.linkedin.com/in/mpodeley/" target="_blank" rel="me noopener">LinkedIn</a>
     <!-- TODO(matias): pegar acá el link de agenda (+ ?utm_source=research) -->
-    <a class="btn btn--outline" href="#" data-placeholder="booking" data-segment="research" title="URL por definir">Agendar una charla</a>
   </div>
   <p class="contact-note">mpodeley@gmail.com · Buenos Aires</p>
 </section>
