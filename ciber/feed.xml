@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://podeley.ar/ciber/feed.xml</id>
+  <title>Registro de ciberincidentes en energía e infraestructura crítica argentina</title>
+  <updated>2026-08-03T00:00:00Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://podeley.ar/ciber/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+  <author><name>Matías Podeley</name></author>
+  <rights>CC BY 4.0</rights>
+  <entry>
+    <id>https://podeley.ar/ciber/#oldelval-2026-07</id>
+    <title>Oleoductos del Valle (Oldelval) — The Gentlemen</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2026-07-23T00:00:00Z</published>
+    <updated>2026-08-03T00:00:00Z</updated>
+    <summary>Canal: leak-site, luego cnv · Confianza: alta. El atacante publicó el 23 de julio de 2026; el hecho relevante ante la CNV está cargado el 31 de julio a las 15:50, y la cobertura de prensa llegó el 2 de agosto. Ocho días de asimetría entre lo que sabía el atacante y lo que sabía el mercado. La divulgación llegó por vía de mercado de capitales, no por un regulador energético.</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#albanesi-2023-02</id>
+    <title>Grupo Albanesi — LockBit 3.0</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2023-02-14T00:00:00Z</published>
+    <updated>2026-08-03T00:00:00Z</updated>
+    <summary>Canal: leak-site, luego cnv · Confianza: alta. El primer hecho relevante ciber del sector energético argentino ante la CNV, tres años antes que el de Oldelval — y nadie lo registró como precedente hasta la pasada por la AIF del 3 de agosto de 2026. Las tres presentaciones cargan el mismo PDF.</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#absa-2021-01</id>
+    <title>Aguas Bonaerenses S.A. (ABSA) — sin atribuir</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2021-01-26T00:00:00Z</published>
+    <updated>2026-08-03T00:00:00Z</updated>
+    <summary>Canal: prensa · Confianza: alta. Sin reclamo público de ningún grupo: como YCRT, se conoce por la reacción de la organización y no por el atacante. Es el incidente más antiguo de agua y saneamiento del registro; se incluye por el mismo criterio que AySA. La fecha del incidente es la de su comunicación pública.</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#aysa-2025-12</id>
+    <title>AySA — SafePay</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2025-12-14T00:00:00Z</published>
+    <updated>2025-12-14T00:00:00Z</updated>
+    <summary>Canal: leak-site · Confianza: media. No es energía, pero sí infraestructura crítica del mismo tipo: un servicio esencial con tecnología operativa y millones de usuarios. Se incluye por eso.</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#elecpanamericana-2025-11</id>
+    <title>Electricidad Panamericana — Dire Wolf</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2025-11-26T00:00:00Z</published>
+    <updated>2025-11-26T00:00:00Z</updated>
+    <summary>Canal: leak-site · Confianza: media. null</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#ycrt-2025-05</id>
+    <title>Yacimientos Carboníferos Río Turbio (YCRT) — sin atribuir</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2025-05-27T00:00:00Z</published>
+    <updated>2025-05-27T00:00:00Z</updated>
+    <summary>Canal: prensa · Confianza: media. No aparece en ningún sitio de filtración conocido. Es el caso inverso al de la mayoría del registro: se conoce por la reacción interna y no por el atacante.</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#hasa-2025-05</id>
+    <title>Hidrocarburos Argentinos S.A. (HASA) — BlackLock</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2025-05-16T00:00:00Z</published>
+    <updated>2025-05-16T00:00:00Z</updated>
+    <summary>Canal: leak-site · Confianza: media. Segunda aparición de la misma empresa en cinco meses, con un grupo distinto. Sin cobertura de prensa en ninguno de los dos casos.</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#360energy-2025-02</id>
+    <title>360 Energy — Akira</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2025-02-04T00:00:00Z</published>
+    <updated>2025-02-04T00:00:00Z</updated>
+    <summary>Canal: leak-site · Confianza: media. null</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#hasa-2025-01</id>
+    <title>Hidrocarburos Argentinos S.A. (HASA) — ElDorado</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2025-01-04T00:00:00Z</published>
+    <updated>2025-01-04T00:00:00Z</updated>
+    <summary>Canal: leak-site · Confianza: media. null</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#cnea-2024-11</id>
+    <title>Comisión Nacional de Energía Atómica (CNEA) — Money Message</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2024-12-18T00:00:00Z</published>
+    <updated>2024-12-18T00:00:00Z</updated>
+    <summary>Canal: prensa · Confianza: alta. El caso más limpio de contradicción entre las dos columnas. La declaración oficial fue que no se copiaron datos; el sitio de filtración los publicó en diciembre de 2024.</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#amarillagas-2024-05</id>
+    <title>Amarilla Gas — Play</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2024-06-13T00:00:00Z</published>
+    <updated>2024-06-13T00:00:00Z</updated>
+    <summary>Canal: leak-site · Confianza: media. Un mes entre el ataque reclamado y la publicación en el sitio de filtración.</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#btu-2023-07</id>
+    <title>BTU S.A. — 8Base</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2023-07-13T00:00:00Z</published>
+    <updated>2023-07-13T00:00:00Z</updated>
+    <summary>Canal: leak-site · Confianza: media. null</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#tgs-2022-04</id>
+    <title>Transportadora de Gas del Sur (TGS) — sin atribuir</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2022-04-05T00:00:00Z</published>
+    <updated>2022-04-05T00:00:00Z</updated>
+    <summary>Canal: prensa · Confianza: alta. Las dos compilaciones argentinas que registran el hecho lo clasifican como denegación de servicio. Circula además una atribución a ALPHV/BlackCat que no se pudo verificar: TGS no aparece en las 731 víctimas listadas del grupo, y la nota de BleepingComputer que suele citarse como respaldo trata de Creos Luxembourg, no de TGS. El registro lo deja sin atribuir. Es el incidente más citado del sector energético argentino y el de peor procedencia.</summary>
+  </entry>
+  <entry>
+    <id>https://podeley.ar/ciber/#edesur-2020-06</id>
+    <title>Edesur (Enel Argentina) — Snake / EKANS</title>
+    <link rel="alternate" type="text/html" href="https://podeley.ar/ciber/"/>
+    <published>2020-06-07T00:00:00Z</published>
+    <updated>2020-06-07T00:00:00Z</updated>
+    <summary>Canal: prensa · Confianza: alta. El más relevante del registro en términos de tecnología operativa. EKANS/Snake es una de las pocas familias de ransomware con una lista de procesos industriales que termina antes de cifrar, incluidas piezas de software de HMI y de historiadores de proceso. No hay evidencia pública de que esa capacidad se haya ejercido en Edesur, pero la familia la tiene por diseño.</summary>
+  </entry>
+</feed>
